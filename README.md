@@ -44,6 +44,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
+### 📓 Buscador de la zapatilla más barata
+
+Abre `notebooks/buscador_zapatillas_baratas.ipynb`, indica **modelo**, **sexo** y **talla** en la celda de parámetros y ejecuta todo. El notebook busca la zapatilla en la web, lee el precio y el stock por talla de cada tienda y devuelve una tabla ordenada de la oferta más barata a la más cara (exportable a CSV).
+
+Opcional: define la variable de entorno `SERPAPI_KEY` para añadir resultados de Google Shopping.
+
 ## ⚖️ Uso responsable
 
 Este proyecto tiene fines educativos y de uso personal. Respeta siempre los `robots.txt` y los términos de uso de cada web, limita la frecuencia de las peticiones y no utilices los datos con fines comerciales sin permiso.
